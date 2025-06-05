@@ -4,6 +4,10 @@
 
 Esta é uma aplicação web de controle de tarefas, desenvolvida com React e TypeScript. O projeto foi construído como um exercício prático para solidificar os conhecimentos adquiridos em um curso, focando na criação de uma interface de usuário interativa e dinâmica para gerenciar tarefas.
 
+**📱 [Ver Versão Mobile (React Native)](https://github.com/JulioStars/ToDo-Mobile)**
+
+---
+
 ## Visão Geral Rápida
 
 * **Propósito:** Desenvolver uma aplicação de lista de tarefas completa, permitindo o gerenciamento eficiente de itens do dia a dia.
