@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# Lista de Tarefas - Aplicação de Controle de Tarefas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen)](https://github.com/JulioStars/Lista-de-Tarefas)
 
-Currently, two official plugins are available:
+Esta é uma aplicação web de controle de tarefas, desenvolvida com React e TypeScript. O projeto foi construído como um exercício prático para solidificar os conhecimentos adquiridos em um curso, focando na criação de uma interface de usuário interativa e dinâmica para gerenciar tarefas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visão Geral Rápida
 
-## Expanding the ESLint configuration
+* **Propósito:** Desenvolver uma aplicação de lista de tarefas completa, permitindo o gerenciamento eficiente de itens do dia a dia.
+* **Tecnologias Modernas:** Construído utilizando React para a interface do usuário e TypeScript para adicionar tipagem estática e melhorar a manutenibilidade do código.
+* **Responsividade:** A aplicação é totalmente responsiva, adaptando-se a diferentes tamanhos de tela para uma experiência de usuário consistente em desktop e dispositivos móveis.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Funcionalidades Chave
 
-- Configure the top-level `parserOptions` property like this:
+* **Adicionar Nova Tarefa:** Interface intuitiva para incluir novos itens na lista de tarefas.
+* **Marcar/Desmarcar como Concluída:** Funcionalidade para alternar o status de conclusão de uma tarefa.
+* **Remover Tarefa:** Opção para excluir tarefas da listagem.
+* **Mostrar Progresso de Conclusão:** Exibição visual do progresso de conclusão das tarefas (ex: porcentagem de tarefas concluídas).
+* **Contagem Total de Tarefas:** Exibição da quantidade total de tarefas cadastradas pelo usuário.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Stack utilizada
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+**Front-end:** React, Typescript, Vite, CSS Modules
+
+## Autor
+
+Julio Freitas

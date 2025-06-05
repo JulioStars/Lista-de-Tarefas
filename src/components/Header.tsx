@@ -1,11 +1,10 @@
 import styles from './Header.module.css'
+import logoSvg from "../assets/Logo.svg"
 
 export function Header() {
 return (
     <header className={styles.container}>
-    <img src="/logo.svg" alt="logo da aplicação" />
-    <strong className={styles.text_1}>Tick</strong>
-    <strong className={styles.text_2}>List</strong>
+    <img src={logoSvg} alt="logo da aplicação" />
     </header>
 )
 }
